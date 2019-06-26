@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Todos</title>
+
+    <link id="favicon" rel="icon" href="https://cdn.gomix.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Ffavicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+  <div class="main"> 
+    <div class="inside">
+      
+      <h1>Todo List</h1>
+
+      
+      
+      <div class="input" id="add">
+        <button onclick="handlers.addTodo()">Add</button>
+        <input id="addTodoTextInput" type="text">
+      </div>
+      
+      <div class="input" id="change">
+        <button onclick="handlers.changeTodo()">Change Todo</button>
+        <input id="changeTodoPositionInput" type="number">
+        <input id="changeTodoTextInput" type="text">
+        <span>Enter the number of task that you want to change, starting from zero, and type new text in the right input</span>
+      </div>
+      
+    <!-- <div class="input" id="toggleCompleted"> -->
+      <!-- <button onclick="handlers.toggleCompleted()">Toggle Completed</button> -->
+       <!-- <input id="toggleCompletedPositionInput" type="number"> <span>Enter the number of task that you want to toggle completed, starting from zero.</span> -->
+    <!--  </div> -->
+
+      <div class="input" id="toggleAll">
+        <button onclick="handlers.toggleAll()">Toggle All</button>
+      </div>
+
+    </div>  
+      
+      <ul class="list">
+      </ul>
+      
+  </div>  
+    <script src="js/main.js"></script>
+  </body>
+</html>
