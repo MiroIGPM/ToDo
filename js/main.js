@@ -133,15 +133,6 @@ var todoList = {
       }
       });
   },
-
-
-
-
-
-
-
-
-  // JEBEM TI BOGA
     
     createCompleteButton: function(){
       var completeButton = document.createElement('button');
